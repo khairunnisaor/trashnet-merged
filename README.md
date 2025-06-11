@@ -29,6 +29,16 @@ Akurasi tinggi ini menunjukkan kemampuan sistem yang sangat baik dalam mengident
 Dengan mengintegrasikan informasi daur ulang dan dampak lingkungan, RecycleLens memperkuat perannya sebagai alat edukasi yang aplikatif, 
 diharapkan dapat mendorong peningkatan kesadaran dan partisipasi masyarakat dalam pengelolaan sampah yang lebih bertanggung jawab.
 
+## Eksperimen
+| Method            | Model          | Augmentation | Precision | Recall | F1-Score | Accuracy | 
+| ----------------- | -------------- |:------------:|:---------:|:------:|:--------:|:--------:|
+| From Scratch      | CNN            | No           |           |        |          |          |
+| From Scratch      | CNN            | Yes          |           |        |   69,06  |          |
+| Transfer Learning | MobileNetV2    | Yes          |           |        |   94,18  |          |
+| Transfer Learning | EfficientNetB0 | Yes          |           |        |   95,81  |          |
+| Transfer Learning | DenseNet121    | Yes          |           |        |   97,65  |          |
+
+
 # Instalasi dan Penggunaan (Lokal)
 1. Clone Repositori
 ```
