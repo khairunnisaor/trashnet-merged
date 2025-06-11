@@ -30,13 +30,13 @@ Dengan mengintegrasikan informasi daur ulang dan dampak lingkungan, RecycleLens 
 diharapkan dapat mendorong peningkatan kesadaran dan partisipasi masyarakat dalam pengelolaan sampah yang lebih bertanggung jawab.
 
 ## Eksperimen
-| Method            | Model          | Augmentation | Precision | Recall | F1-Score | Accuracy | 
-| ----------------- | -------------- |:------------:|:---------:|:------:|:--------:|:--------:|
-| From Scratch      | CNN            | No           |           |        |          |          |
-| From Scratch      | CNN            | Yes          |           |        |   69,06  |          |
-| Transfer Learning | MobileNetV2    | Yes          |           |        |   94,18  |          |
-| Transfer Learning | EfficientNetB0 | Yes          |           |        |   95,81  |          |
-| Transfer Learning | DenseNet121    | Yes          |           |        |   97,65  |          |
+| Method            | Model          | Precision | Recall | F1-Score | Accuracy | 
+| ----------------- | -------------- |:---------:|:------:|:--------:|:--------:|
+| From Scratch      | CNN            |           |        |          |          |
+| From Scratch      | CNN            |           |        |   69,06  |          |
+| Transfer Learning | MobileNetV2    |           |        |   94,18  |          |
+| Transfer Learning | EfficientNetB0 |           |        |   95,81  |          |
+| Transfer Learning | DenseNet121    |           |        |   97,65  |          |
 
 
 # Instalasi dan Penggunaan (Lokal)
